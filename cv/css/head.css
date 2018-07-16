@@ -1,0 +1,122 @@
+.head{
+  height: 500px;
+  padding-top: 10px;
+  background-image: url("../pic/head-background.png");
+  background-size:cover;
+
+}
+.head p{
+  color: white;
+}
+.navigate{
+  margin: 0 20px;
+  height: 12%;
+  /* background-color: #e0e0e0; */
+  position: relative;
+}
+
+.cv-title,.navigate-option{
+  /* background-color: #d0d0d0; */
+  position: absolute;
+}
+.cv-title{
+  height: 50%;
+  width: 25%;
+  margin-left: 20px;
+  top:25%;
+}
+.navigate-option{
+  height: 40%;
+  width: 45%;
+  margin-right: 20px;
+  top:30%;
+  right: 0;
+}
+.cv-title P{
+  font-style: normal;
+  font-family:cursive;
+  font-size: 26px;
+  margin-left: 40px;
+}
+.navigate-option ul{
+  float: right;
+}
+.navigate-option ul li ,.navigate-option a{
+  text-decoration: none;
+  height: 28px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-bottom: 2px solid transition;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 12px;
+}
+ul li :hover{
+  color: #f0f0f0;
+  border-bottom: 2px solid #f0f0f0;
+  transition-delay: 50ms;
+}
+.portrait{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  /* background-color: #e0e0e0; */
+  margin:20px auto;
+  background-image: url(../pic/portrait.jpg);
+  background-size:cover;
+}
+.myname{
+  /* background-color: #e0e0e0; */
+  height: 8%;
+  margin: 40px 20px 10px 20px;
+  text-align: center;
+}
+.myname p{
+  font-size: 32px;
+  font-weight: bold;
+}
+.job{
+  /* background-color: #e0e0e0; */
+  height: 6%;
+  margin: 10px 20px;
+  text-align: center;
+}
+.job p{
+  font-size: 20px;
+  /* font-weight: bold; */
+  font-family:cursive;
+}
+.operate{
+  /* background-color: #e0e0e0; */
+  height: 10%;
+  margin: 20px 20px;
+}
+.btn-div{
+  margin: 0 auto;
+  /* background-color:#d0d0d0; */
+  width: 400px;
+}
+.operate a{
+  width: 140px;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 25px;
+  background: #18CC52;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+}
+.operate a:hover{
+  background: #19D957;
+  color: #eee;
+  border: 1px solid #22dd66;
+  transition-delay: 100ms;
+  font-weight: bold;
+
+}
+#download{
+  float: right;
+}
